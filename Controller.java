@@ -9,6 +9,7 @@ public class Controller {
             logic.getInfo();
             return "good Controller";
         } catch (Exception e) {
+            e.printStackTrace();
             return "exception Controller";
         }
 

@@ -6,6 +6,5 @@ public class LogicException extends Exception {
         super();
     }
 
-    public LogicException(String controller) {
-    }
+
 }
